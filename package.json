@@ -1,0 +1,20 @@
+{
+  "name": "p2_moquet_lucas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "P2_Moquet_Lucas"
+  },
+  "keywords": [
+    "Projet",
+    "OpenClassrooms"
+  ],
+  "author": "Lucas Moquet",
+  "license": "ISC",
+  "dependencies": {}
+}
