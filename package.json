@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "sass --watch SCSS/main.scss:../CSS/style.css"
+    "sass": "sass --watch ./SCSS/main.scss:./CSS/main.css",
+    "prefix": "postcss ./CSS/main.css --use autoprefixer -d ./CSS/prefixed"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   ],
   "author": "Lucas Moquet",
   "license": "ISC",
-  "dependencies": {}
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+}
 }
