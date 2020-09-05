@@ -1,0 +1,31 @@
+.main {
+    width: 94vw;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.icone {
+    width: 100%;
+}
+
+.research {
+    display: inline-flex;
+    width: 94vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0.05rem 0.05rem 0.2rem 0.2rem rgba(0,0,0, 0.5);
+    &__icone{
+        width: 3vw;
+        background-color: $color-bg;
+        border: white 1px solid;
+        border-radius: 20%;
+    }
+    &__elt{
+        padding: 0.2rem;
+    }
+}
+
+.filter {
+    display: inline-flex;
+    
+}

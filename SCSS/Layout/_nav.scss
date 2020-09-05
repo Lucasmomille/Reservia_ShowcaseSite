@@ -1,0 +1,11 @@
+.navbar {
+    display: inline-flex;
+    &__elt {
+        padding: 0.5rem;
+        &:hover {
+            color: $color-chart;
+            font-size: $size-text*1.2;
+        }
+    }
+    
+}

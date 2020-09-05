@@ -1,0 +1,15 @@
+.header {
+    width: 94vw;
+    margin: 2rem;
+    display: inline-flex;
+    justify-content: space-between;
+    flex: 20% 0 0;
+
+}
+
+.logo {
+    padding: 0.5rem;
+    &__img{
+        width: 100%;
+    }
+}
