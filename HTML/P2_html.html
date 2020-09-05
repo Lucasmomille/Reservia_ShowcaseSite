@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href=".css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css" />
     <!-- Raleway font -->
-    <link href=" <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
     <title>Reservia</title>
 </head>
 <body>
     <header class="header">
-        <div class="logo__container">
-            <img class="" alt="Logo Reservia" src=""> 
+        <div class="logo">
+            <img class="logo__img" alt="Logo Reservia" src="../Images/images/logo/Reservia.svg"> 
 
         </div>
         <nav class="navbar">
-            <ul class="navbar__list">
-                <li>Hébergements</li>
-                <li>Activités</li>
-                <li>S'inscrire</li>
-            </ul>
+           
+                <p class="navbar__elt">Hébergements</p>
+                <p class="navbar__elt">Activités</p>
+                <p class="navbar__elt">S'inscrire</p>
+        
         </nav>
     </header>
 
@@ -27,25 +27,65 @@
         <h1 class="title"> Trouvez un hébergement pour des vacances de rêves</h1>
         <h2 class="subtitle">En plein centre ville ou en pleine nature</h2>
     <!-- Champ de recherche-->
-        <div class="research__container">
-            <div class="reserch__logo">
-                <img class="research__logo--img" alt="Logo lieu" src="">
+        <div class="research">
+            <div class="research__icone research__elt">
+                <img class="research__icone--img icone" alt="Icone lieu" src="../Images/icone/map-marker-alt-solid.svg">
             </div>
-            <div class="research__field">
+            <div class="research__field research__elt">
                 Marseille, France
             </div>
-            <div class="researchbutton">
-                <btn>Rechercher</btn>
+            <div class="btn research__elt">
+                <button type="submit" value="submit" id="btn" class="btn--shape btn--hover"> Rechercher</button>
             </div>
 
         </div>
     <!-- Filtres-->
-        <div class="filter__container">
+        <div class="filter">
+            <div class="filter__title">
+                Filtres
+            </div>
+            <div class="filter_elt">
+                <div class="filter__logo icone">
+
+                </div>
+                <div class="filter__name ">
+                    Économique
+                </div>
+            </div>
+            <div class="filter_elt">
+                <div class="filter__logo icone">
+                    
+                </div>
+                <div class="filter__name">
+                    Familial
+                </div>
+            </div>
+            <div class="filter_elt">
+                <div class="filter__logo icone">
+                    
+                </div>
+                <div class="filter__name">
+                    Romantique
+                </div>
+            </div>
+            <div class="filter_elt">
+                <div class="filter__logo icone">
+            
+                </div>
+                <div class="filter__name">
+                    Animaux autorisés
+                </div>
+            </div>
 
         </div>
     <!-- Point info-->
         <div class="info">
-            
+            <div class="info__logo">
+
+            </div>
+            <div class="info__text">
+            Plus de 500 logements sont disponibles dans cette ville
+            </div>
         </div>
 
     <!-- Résultats recherche-->
@@ -53,7 +93,7 @@
             <div class="hebergement">
                 <div class="hebergement_img">
                     <figure>
-                        <img src="image.jpg" alt="" />
+                        <img src="../Images/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=" Auberge de la Cannebiere" />
                         <figcaption>
                             <ul>
                                 <li class="legend__title"> Auberge de la Cannebiere </li>
@@ -65,7 +105,7 @@
                 </div>
                 <div class="hebergement_img">
                     <figure>
-                        <img src="image.jpg" alt="" />
+                        <img src="../Images/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
                         <figcaption>
                             <ul>
                                 <li class="legend__title"> Hôtel du port </li>
@@ -77,7 +117,7 @@
                 </div>
                 <div class="hebergement_img">
                     <figure>
-                        <img src="image.jpg" alt="" />
+                        <img src="../Images/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />
                         <figcaption>
                             <ul>
                                 <li class="legend__title"> Hôtel Les mouettes </li>
@@ -89,7 +129,7 @@
                 </div>
                 <div class="hebergement_img">
                     <figure>
-                        <img src="image.jpg" alt="" />
+                        <img src="../Images/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt=" Hôtel de la mer" />
                         <figcaption>
                             <ul>
                                 <li class="legend__title"> Hôtel de la mer </li>
@@ -101,32 +141,69 @@
                 </div>
                 <div class="hebergement_img">
                     <figure>
-                        <img src="image.jpg" alt="" />
+                        <img src="../Images/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
                         <figcaption>
                             <ul>
                                 <li class="legend__title"> Auberge Le Panier </li>
                                 <li class="legend__subtitle"> Nuit à partir de 23€ </li>
                                 <li class="legend__note"> 4/5 </li>
                             </ul>
-                            Légende associée</figcaption>
+                            </figcaption>
                     </figure>
                 </div>
                 <div class="hebergement_img">
                     <figure>
-                        <img src="image.jpg" alt="Hôtel chez Amina" />
+                        <img src="../Images/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />
                         <figcaption>
                             <ul>
                                 <li class="legend__title"> Hôtel chez Amina </li>
                                 <li class="legend__subtitle"> Nuit à partir de 96€ </li>
                                 <li class="legend__note"> 5/5 </li>
                             </ul>
-                            Légende associée</figcaption>
+                            </figcaption>
                     </figure>
                 </div>
 
             </div>
             <div class="popular">
-
+               
+                <div class="popular_img">
+                    <figure>
+                        <img src="../Images/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin" />
+                        <figcaption>
+                            <ul>
+                                <li class="legend__title"> Hôtel le soleil du matin </li>
+                                <li class="legend__subtitle"> Nuit à partir de 128€ </li>
+                                <li class="legend__note"> 5/5 </li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="popular_img">
+                    <figure>
+                        <img src="../Images/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" />
+                        <figcaption>
+                            <ul>
+                                <li class="legend__title"> Au coeur de l'eau Chambres d'hôtes </li>
+                                <li class="legend__subtitle"> Nuit à partir de 71€</li>
+                                <li class="legend__note"> 4/5 </li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+               
+                <div class="popular_img">
+                    <figure>
+                        <img src="../Images/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" />
+                        <figcaption>
+                            <ul>
+                                <li class="legend__title"> Hôtel Tout bleu et Blanc</li>
+                                <li class="legend__subtitle"> Nuit à partir de 68€ </li>
+                                <li class="legend__note"> 4/5 </li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
         
@@ -139,41 +216,42 @@
                 <div class="activity_img">
                     <figure>
                         <img src="image.jpg" alt="" />
-                        <figcaption>Légende associée</figcaption>
+                        <figcaption>Vieux Port</figcaption>
                     </figure>
                 </div>
                 <div class="activity_img">
                     <figure>
                         <img src="image.jpg" alt="" />
-                        <figcaption>Légende associée</figcaption>
-                    </figure>
-                
-                </div>
-                <div class="activity_img">
-                    <figure>
-                        <img src="image.jpg" alt="" />
-                        <figcaption>Légende associée</figcaption>
+                        <figcaption>Fort de Pomègue</figcaption>
                     </figure>
                 
                 </div>
                 <div class="activity_img">
                     <figure>
                         <img src="image.jpg" alt="" />
-                        <figcaption>Légende associée</figcaption>
+                        <figcaption>Îles de Frioul</figcaption>
+                    </figure>
+                
+                </div>
+                
+                <div class="activity_img">
+                    <figure>
+                        <img src="image.jpg" alt="" />
+                        <figcaption>Parc National des Calanques</figcaption>
                     </figure>
                 
                 </div>
                 <div class="activity_img">
                     <figure>
                         <img src="image.jpg" alt="" />
-                        <figcaption>Légende associée</figcaption>
+                        <figcaption>Notre-Dame-de-la-Garde</figcaption>
                     </figure>
                 
                 </div>
                 <div class="activity_img">
                     <figure>
                         <img src="image.jpg" alt="" />
-                        <figcaption>Légende associée</figcaption>
+                        <figcaption>Parc Longchamp</figcaption>
                     </figure>
                 
                 </div>
