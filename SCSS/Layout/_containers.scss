@@ -4,9 +4,7 @@
     margin-left: 2rem;
 }
 
-.icone {
-    width: 100%;
-}
+
 
 .research {
     display: inline-flex;
@@ -23,9 +21,54 @@
     &__elt{
         padding: 0.2rem;
     }
+    &__btn{
+        background-color: $color-chart;
+    }
 }
 
 .filter {
     display: inline-flex;
+    width: 70%;
+    justify-content: space-between;
+    &__elt {
+        display: inline-flex;
+    }
+    &__icon {
+        width: 3vw;
+    }
     
 }
+
+.result {
+    
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    flex: 49% 0 0;
+
+    &__title {
+        width: 80%;
+        
+    }
+}
+
+.hebergement {
+    background-color: $color-bg;
+    padding: 1rem;
+    width: 70%;
+    &__container {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex: 33% 0 0;
+        position: relative;
+        justify-content: space-between;
+        
+        }
+}
+
+.popular {
+    width: 25%;
+    background-color: $color-bg;
+    padding: 1rem;
+}
+
