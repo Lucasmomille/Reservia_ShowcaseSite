@@ -12,7 +12,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0.05rem 0.05rem 0.2rem 0.2rem rgba(0,0,0, 0.5);
-    &__icone{
+    &__icon{
         width: 3vw;
         background-color: $color-bg;
         border: white 1px solid;
@@ -39,6 +39,11 @@
     
 }
 
+.info {
+    display: inline-flex;
+    width: 40%;
+}
+
 .result {
     
     display: inline-flex;
@@ -56,14 +61,18 @@
     background-color: $color-bg;
     padding: 1rem;
     width: 70%;
-    &__container {
-        display: inline-flex;
-        flex-wrap: wrap;
-        flex: 33% 0 0;
-        position: relative;
-        justify-content: space-between;
-        
-        }
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    &__img {
+        border: 3px solid white;
+        border-radius: 5%;
+        margin: 0.5rem;
+        width: 30%;
+    
+    }
+
 }
 
 .popular {

@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    outline: 2px red solid;
     text-decoration: none;
     
     
@@ -19,7 +18,7 @@ body {
 img {
     width: 50%;
 }
-.icone {
+.icon {
     width: $size-icone;
     min-width: $size-minicone;
 }

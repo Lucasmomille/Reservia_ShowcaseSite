@@ -2,6 +2,7 @@
     display: inline-flex;
     &__elt {
         padding: 0.5rem;
+        display: inline-flex;
         &:hover {
             color: $color-chart;
             font-size: $size-text*1.2;
