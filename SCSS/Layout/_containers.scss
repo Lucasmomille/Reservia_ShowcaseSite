@@ -50,6 +50,7 @@
     justify-content: space-between;
     position: relative;
     flex: 49% 0 0;
+    margin-bottom: 2rem;
 
     &__title {
         width: 80%;
@@ -65,12 +66,17 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
-    &__img {
+    &__elt {
         border: 3px solid white;
         border-radius: 5%;
         margin: 0.5rem;
         width: 30%;
+        overflow: hidden;
     
+    }
+    &__img {
+        width: 100%;
+        overflow: hidden;
     }
 
 }
