@@ -1,0 +1,19 @@
+.research {
+    display: inline-flex;
+    width: 94vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0.05rem 0.05rem 0.2rem 0.2rem rgba(0,0,0, 0.5);
+    &__icon{
+        width: 3vw;
+        background-color: $color-bg;
+        border: white 1px solid;
+        border-radius: 20%;
+    }
+    &__elt{
+        padding: 0.2rem;
+    }
+    &__btn{
+        background-color: $color-chart;
+    }
+}
