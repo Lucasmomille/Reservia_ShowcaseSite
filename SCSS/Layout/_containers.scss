@@ -27,33 +27,6 @@
     width: 40%;
 }
 
-.result {
-    
-    display: inline-flex;
-    justify-content: space-between;
-    position: relative;
-    flex: 49% 0 0;
-    margin-bottom: 2rem;
-    overflow: hidden;
-    height: auto;
 
-    &__title {
-        width: 80%;
-        display: inline-flex;
-        justify-content: space-between;
-        height: 5%;
-        margin-bottom: 0; 
-    }
-    &__more {
-        width: auto;
-        height: 5px;
-    }
-}
-
-.legend {
-    &__note {
-        display: inline-flex;
-    }
-}
 
 
