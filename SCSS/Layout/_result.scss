@@ -9,10 +9,14 @@
     height: auto;
 
     &__title {
+        &--hbg {
         width: 80%;
+        }
+        &--ppr {
         display: flex;
         justify-content: space-between;
         margin-bottom: 0; 
+        }
     }
     &__section {
         background-color: $color-bg;
@@ -27,9 +31,9 @@
             width: 29%;
         }
     }
-    &__wrapper {
-        display: inline-flex;
-    }
+    // &__wrapper {
+    //     display: inline-flex;
+    // }
 
     &__elt {
         border: 3px solid $color-elt;
