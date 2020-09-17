@@ -1,13 +1,21 @@
 .navbar {
-    display: inline-flex;
+    display: flex;
+    &__link {
+        &--signin {
+            color: $color-chart;
+            font-weight: 600;
+        }
+        &:hover {
+            color: $color-chart;
+            cursor: pointer;
+            border-top: 1px solid $color-chart;
+            padding-top: 20px;
+        }
+    }
     &__elt {
         padding: 0.5rem;
         display: inline-flex;
-        &:hover {
-            color: $color-chart;
-            font-size: $size-text*1.2;
-            cursor: pointer;
-        }
+        
     }
-    
+        
 }

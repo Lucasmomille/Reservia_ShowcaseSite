@@ -1,66 +1,63 @@
 .result {
     
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     position: relative;
     flex: 49% 0 0;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     overflow: hidden;
-    height: auto;
 
     &__title {
         &--hbg {
-        width: 80%;
+        margin-bottom: 1rem;
         }
         &--ppr {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 0; 
+        margin-bottom: 1rem; 
         }
     }
     &__section {
         background-color: $color-bg;
-        padding: 1rem;
+        padding: 2rem;
+        border-radius: 10px;
         &--hbg {
             width: 70%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            height: auto;
         }
         &--ppr {
             width: 29%;
         }
     }
-    // &__wrapper {
-    //     display: inline-flex;
-    // }
+    &__wrapper {
+        &--hbg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+    }
 
     &__elt {
-        border: 3px solid $color-elt;
+        border: 3px solid $color-white;
         border-radius: 5%;
+        background-color: $color-white;
+        margin-bottom: 1rem;
         &--hbg {
             margin-right: 0.5rem;
             width: 30%;
-            background-color: $color-elt;
             overflow: hidden;  
-            height: auto; 
-            max-height: 25%; 
+            height: 300px;
         }
         &--ppr {
-            margin: 0.5rem;
             width: 95%;
-            background-color: $color-elt;
             overflow: hidden;  
-            height: auto; 
-            max-height: 25%; 
-            display: inline-flex;
-            align-items: center;
         }
     }
-    &__containimg {
-        height: 56%;
-        overflow: hidden;   
-    }
+    // &__containimg {
+    //     height: 56%;
+    //     overflow: hidden;   
+    // }
      &__img {
         &--hbg {
             width: 100%;
@@ -78,7 +75,6 @@
     }
     &__more {
         width: auto;
-        height: 5px;
     }
 }
 

@@ -3,7 +3,7 @@ body {
     
     color: $color-text;
     font-size: $size-text;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.7;
 }
 
@@ -15,14 +15,25 @@ h1 {
 }
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: $size-h2;
     
 }
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: $size-h2*0.9;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: $size-text;
+}
 button {
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    font-style: italic;
+    font-weight: 600;
     font-size: 1rem;
 }
 

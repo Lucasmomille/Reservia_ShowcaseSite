@@ -4,7 +4,13 @@
     margin-left: 2rem;
     margin-top: 1rem;
     padding: 0.5rem;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;    
     background-color: $color-bg;
+    &__title {
+        margin-bottom: 0.5rem;
+    }
+    &__elt {
+        margin-right: 10rem;
+        margin-bottom: 0.5rem;
+    }
 }

@@ -1,19 +1,36 @@
 .research {
-    display: inline-flex;
-    width: 94vw;
+    display: flex;
+    width: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0.05rem 0.05rem 0.2rem 0.2rem rgba(0,0,0, 0.5);
+    &__chip{
+        padding: 0.2rem;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        background-color: $color-bg;
+        text-align: center;
+    }
     &__icon{
         width: 3vw;
-        background-color: $color-bg;
-        border: white 1px solid;
-        border-radius: 20%;
+        // border: white 1px solid;
     }
-    &__elt{
-        padding: 0.2rem;
+    &__input{
+        padding-left: 0.5rem;
+        border: 0.5px solid $color-bg;
     }
+    
     &__btn{
         background-color: $color-chart;
+        border-top-right-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+        padding: 0.5rem;
+        color: $color-white;
+        font-weight: 600;
     }
+}
+
+// Peut-on faire autrement ?
+::placeholder {
+    color: $color-text;
+    opacity: 1;
 }

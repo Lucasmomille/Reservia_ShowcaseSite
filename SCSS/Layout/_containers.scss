@@ -5,19 +5,48 @@
 }
 
 .filter {
-    display: inline-flex;
+    display: flex;
     width: 70%;
     justify-content: space-between;
+    padding: 0.5rem;
+    &__title {
+      font-weight: 500;  
+    }
     &__elt {
-        display: inline-flex;
+        display: flex;
+        border: 1px solid rgba(0,0,0, 0.3);
+        border-radius: 50vw;
+        position: relative;
         &:hover {
             color: $color-chart;
-            font-size: $size-text*1.2;
             cursor: pointer;
         }
     }
     &__icon {
-        width: 3vw;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        background-color: $color-chartlight;
+        color: $color-chart;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__chip {
+        background-color: $color-chartlight;
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        margin-left: -1px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    &__test {
+        width: 25px;
+        height: 25px;
+        color: $color-chart;
+        
     }
     
 }
@@ -25,6 +54,10 @@
 .info {
     display: inline-flex;
     width: 40%;
+    color: rgba(0,0,0, 0.5);
+    &__icon {
+        margin-right: 5px;
+    }
 }
 
 
