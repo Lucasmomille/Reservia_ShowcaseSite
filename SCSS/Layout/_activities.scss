@@ -1,29 +1,40 @@
-.activity-wrapper {
-    /* display: inline-flex; 
-    flex-wrap: wrap; */
+.activity {
+    &__title {
+            width: 100%;
+        }
+    &__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-template-rows: 1fr 1fr;
+    grid-template-areas: "a b c d" "a e c f";
     gap: 2rem;
-    
-   /*  &__title {
-        width: 100%;
     }
     &__elt {
-        border: 0.01px solid white;
+        border: 3px solid $color-white;
         border-radius: 5%;
-        margin: 0.5rem;
-        width: 30%;
-        box-shadow: 0.05rem 0.05rem 0.2rem 0.2rem rgba(0,0,0, 0.18);
         overflow: hidden;
-        position: relative;
-        justify-content: space-between;
-
+        &--one{
+            grid-area: a;
+        }
+        &--two{
+            grid-area: b;
+        }
+        &--three{
+            grid-area: c;
+        }
+        &--four{
+            grid-area: d;
+        }
+        &--five{
+            grid-area: e;
+        }
+        &--six{
+            grid-area: f;
+        }
     }
     &__img {
         width: 100%;
     }
-    &__text {
-        padding: 0.5rem;
-    } */
 }
+
 
