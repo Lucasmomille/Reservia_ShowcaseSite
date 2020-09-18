@@ -1,9 +1,7 @@
 .footer {
-    width: 94vw;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    width: 100%;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
     display: flex;    
     background-color: $color-bg;
     &__title {

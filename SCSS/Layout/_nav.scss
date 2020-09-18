@@ -1,6 +1,8 @@
 .navbar {
     display: flex;
     &__link {
+        border-top: 1px solid transparent;
+        padding-top: 20px;
         &--signin {
             color: $color-chart;
             font-weight: 600;
