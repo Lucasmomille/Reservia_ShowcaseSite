@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     // grid-template-rows: 1fr 1fr;
-    grid-template-areas: "a b c d" "a e c f";
+    // grid-template-areas: "a b c d" "a e c f";
     gap: 2rem;
     }
     &__elt {
@@ -14,22 +14,22 @@
         border-radius: 5%;
         overflow: hidden;
         &--one{
-            grid-area: a;
+            grid-row : 2 / span 1;
         }
         &--two{
-            grid-area: b;
+            grid-row : 1 / span 1;
         }
         &--three{
-            grid-area: c;
+            grid-row : 1 / span 2;
         }
         &--four{
-            grid-area: d;
+            grid-row : 2 / span 1;
         }
         &--five{
-            grid-area: e;
+            grid-row : 1 / span 1;
         }
         &--six{
-            grid-area: f;
+            grid-row : 1 / span 2;
         }
     }
     &__img {
