@@ -4,36 +4,27 @@
         }
     &__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 23% 23% 23% 23%;
     // grid-template-rows: 1fr 1fr;
     // grid-template-areas: "a b c d" "a e c f";
     gap: 2rem;
+
     }
-    &__elt {
-        border: 3px solid $color-white;
-        border-radius: 5%;
+    &__2 {
+        grid-row: 1 / 2;
         overflow: hidden;
-        &--one{
-            grid-row : 2 / span 1;
-        }
-        &--two{
-            grid-row : 1 / span 1;
-        }
-        &--three{
-            grid-row : 1 / span 2;
-        }
-        &--four{
-            grid-row : 2 / span 1;
-        }
-        &--five{
-            grid-row : 1 / span 1;
-        }
-        &--six{
-            grid-row : 1 / span 2;
-        }
+    }
+    &__1 {
+        overflow: hidden;
+    }
+
+    &__elt {
+        overflow: hidden;
     }
     &__img {
-        width: 100%;
+        width: 200%;
+        overflow: hidden;
     }
 }
 

@@ -37,7 +37,7 @@
     &__icon{
         color: $color-chart;
         text-align: center;
-        transform: translateY(23%);
+        transform: translateY(30%);
     }
     &__name{
         margin-right: 10px;
@@ -52,8 +52,15 @@
     display: flex;
     width: auto;
     color: rgba(0,0,0, 0.5);
+    text-align: center;
     &__icon {
         margin-right: 5px;
+        color: $color-chart;
+        border: 2px $color-bg solid;
+        border-radius: 100vw;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
     }
 }
 
