@@ -1,33 +1,70 @@
 .activity {
     &__title {
-            width: 100%;
+        width: 100%;
+        margin-left: 1rem;
         }
     &__wrapper {
-    display: grid;
-    grid-template-columns: 23% 23% 23% 23%;
-    grid-template-rows: 23% 23% 23% 23%;
-    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    }
+    &__elt{
+        width: 23%;
+        overflow: hidden;        
+    }
+    &__figure {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        box-shadow: 1.5px 2px 4px 0.1px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+  
+        }
 
+    &__cover {
+        width: 100%;
+        height: $size-cover;
+        background-position: center;
+        background-size: cover;
+        &--1{
+            background-image: url(../Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+        }
+        &--2{
+            background-image: url(../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+            height: $size-cover*0.5;
+        }
+        &--3{
+            background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+            height: $size-cover*0.25;
+        }
+        &--4{
+            background-image: url(../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+        }
+        &--5{
+            background-image: url(../Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+            height: $size-cover*0.35;
+        }
+        &--6{
+            background-image: url(../Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+            height: $size-cover*0.4;
+        }
     }
-    &__1 {
-        grid-row: 1 / 2;
-        grid-column-start: 1;
+    &__img{
+        width: 100%;
         overflow: hidden;
     }
-    &__2 {
-        overflow: hidden;
-    }
-    &__3 {
-        grid-row: 1 / 3;
-        grid-column: 3;
-    }
-    &__elt {
-        overflow: hidden;
-    }
-    &__img {
-        width: 200%;
-        overflow: hidden;
+    &__text{
+        font-weight: 600;
+        padding: 0.8rem;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
     }
 }
+
+
 
 
