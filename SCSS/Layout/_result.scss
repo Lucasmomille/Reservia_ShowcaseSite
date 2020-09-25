@@ -18,7 +18,7 @@
     &__section {
         background-color: $color-bg;
         padding: 2.5em;
-        border-radius: 3vw;
+        border-radius: 20px;
         &--hbg {
             width: 66%;
             height: auto;
@@ -40,7 +40,7 @@
         border-radius: 10px;
         background-color: $color-white;
         margin-bottom: 2rem;
-        box-shadow: -1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: -1px 1px 15px 0.5px rgba(0, 0, 0, 0.2);
         
         &--hbg{
             margin-right: 0.5rem;
@@ -61,22 +61,24 @@
         }
         &--ppr{
             width: 40%;
-            height: $size-img*1.3;
+            height: $size-img*1.2;
         } 
     }
      &__img {
-         width: 100%;      
+         width: 100%;    
+         &--ppr {
+             width: auto;
+             height: 100%;
+         }  
         } 
 
     &__text {
         padding: 0.5rem;
         margin-left: 0.3rem;
-        > .legend__title {
-            font-weight: 600;
-            margin-bottom: 0.3rem;
-        }
         &--ppr{
             width: 55%;
+            display: flex;
+            flex-direction: column;
         }
     }
     &__more {
@@ -88,12 +90,19 @@
 }
 
 .legend {
+    &__title {
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
     &__rate {
         display: inline-flex;
         color: $color-chart;
-        // &--ppr{
-        //     margin-top: 10%;
-        // }
+        width: 50%;
+        justify-content: space-evenly;
+        &--ppr{
+            margin-left: 0.3rem;
+
+        }
     }
     &__empty {
         color: $color-bg;

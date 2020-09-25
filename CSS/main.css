@@ -70,9 +70,8 @@ button {
 .header {
   width: 94vw;
   margin: 2rem;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  flex: 20% 0 0;
 }
 
 .logo {
@@ -133,7 +132,7 @@ button {
 .filter__chip {
   background-color: #DEEBFF;
   border-radius: 100%;
-  width: 40px;
+  width: 35px;
   height: 100%;
   margin-left: -1px;
   text-align: center;
@@ -219,7 +218,7 @@ button {
 .result__section {
   background-color: #F2F2F2;
   padding: 2.5em;
-  border-radius: 3vw;
+  border-radius: 20px;
 }
 .result__section--hbg {
   width: 66%;
@@ -238,7 +237,7 @@ button {
   border-radius: 10px;
   background-color: #FFFFFF;
   margin-bottom: 2rem;
-  box-shadow: -1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 1px 15px 0.5px rgba(0, 0, 0, 0.2);
 }
 .result__elt--hbg {
   margin-right: 0.5rem;
@@ -258,21 +257,23 @@ button {
 }
 .result__figure--ppr {
   width: 40%;
-  height: 143px;
+  height: 132px;
 }
 .result__img {
   width: 100%;
+}
+.result__img--ppr {
+  width: auto;
+  height: 100%;
 }
 .result__text {
   padding: 0.5rem;
   margin-left: 0.3rem;
 }
-.result__text > .legend__title {
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-}
 .result__text--ppr {
   width: 55%;
+  display: flex;
+  flex-direction: column;
 }
 .result__more {
   width: auto;
@@ -281,9 +282,18 @@ button {
   font-weight: 600;
 }
 
+.legend__title {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
 .legend__rate {
   display: inline-flex;
   color: #0065FC;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.legend__rate--ppr {
+  margin-left: 0.3rem;
 }
 .legend__empty {
   color: #F2F2F2;
