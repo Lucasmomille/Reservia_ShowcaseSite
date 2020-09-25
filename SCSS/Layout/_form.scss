@@ -1,29 +1,29 @@
 .research {
     display: flex;
-    width: auto;
+    width: 27%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    &__chip{
-        padding: 0.2rem;
-        border-top-left-radius: 1vw;
-        border-bottom-left-radius: 1vw;
+
+    &__icon{
+        padding: 0.7rem;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
         background-color: $color-bg;
         text-align: center;
-    }
-    &__icon{
-        width: 3vw;
-        // border: white 1px solid;
+        width: 40px;
+
     }
     &__input{
         padding-left: 0.5rem;
         border: 0.5px solid $color-bg;
+        width: 70%;
     }
     
     &__btn{
         background-color: $color-chart;
-        border-top-right-radius: 1vw;
-        border-bottom-right-radius: 1vw;
-        padding: 0.5rem;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0.7rem;
         color: $color-white;
         font-weight: 600;
     }
@@ -32,5 +32,7 @@
 // Peut-on faire autrement ?
 ::placeholder {
     color: $color-text;
+    font-size: $size-text;
+    font-weight: 500;
     opacity: 1;
 }

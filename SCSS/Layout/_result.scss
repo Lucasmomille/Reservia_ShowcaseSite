@@ -3,9 +3,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    flex: 49% 0 0;
     margin-bottom: 2rem;
-    margin-top: 1rem;
     overflow: hidden;
 
     &__title {
@@ -24,7 +22,7 @@
             height: auto;
         }
         &--ppr {
-            width: 32%;
+            width: 31%;
         }
     }
     &__wrapper {
@@ -43,15 +41,13 @@
         box-shadow: -1px 1px 15px 0.5px rgba(0, 0, 0, 0.2);
         
         &--hbg{
-            margin-right: 0.5rem;
-            width: 30%;
+            width: 31%;
             overflow: hidden;  
             height: auto;
         }
         &--ppr{
             display: flex;
             overflow: hidden;  
-
         }
     }
     &__figure {
@@ -61,20 +57,16 @@
         }
         &--ppr{
             width: 40%;
-            height: $size-img*1.2;
         } 
     }
      &__img {
-         width: 100%;    
-         &--ppr {
-             width: auto;
-             height: 100%;
-         }  
+         width: 100%;     
         } 
 
     &__text {
-        padding: 0.5rem;
+        padding-top: 0.5rem;
         margin-left: 0.3rem;
+        
         &--ppr{
             width: 55%;
             display: flex;
@@ -90,19 +82,25 @@
 }
 
 .legend {
+    
     &__title {
-            font-weight: 600;
-            margin-bottom: 0.3rem;
-        }
+        font-weight: 700;
+        font-size: $size-text*0.9;
+        margin-bottom: 0.3rem;
+    }
+    &__subtitle {
+        flex-grow:1;
+        font-size: $size-text*0.9;
+    }
     &__rate {
         display: inline-flex;
         color: $color-chart;
         width: 50%;
-        justify-content: space-evenly;
-        &--ppr{
-            margin-left: 0.3rem;
+        // justify-content: space-evenly;
+        // &--ppr{
+        //     margin-left: 0.3rem;
 
-        }
+        // }
     }
     &__empty {
         color: $color-bg;

@@ -11,15 +11,16 @@
     }
     &__elt{
         width: 23%;
-        overflow: hidden;        
+        overflow: hidden; 
+        padding: 0.5rem;       
     }
     &__figure {
         width: 100%;
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        border-radius: 30px;
-        box-shadow: 1.5px 2px 4px 0.1px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        box-shadow: 1.5px 2px 10px 0.1px rgba(0, 0, 0, 0.1);
         margin-bottom: 2rem;
   
         }
@@ -38,7 +39,7 @@
         }
         &--3{
             background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
-            height: $size-cover*0.25;
+            height: $size-cover*0.3;
         }
         &--4{
             background-image: url(../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
@@ -61,7 +62,8 @@
         padding: 0.8rem;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        
+        background-color: $color-white;
+        margin-top: -50px;
     }
 }
 
