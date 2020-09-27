@@ -1,7 +1,24 @@
 .main{
-    width: 94vw;
+    width: 90%;
     margin-right: 2rem;
     margin-left: 2rem;
+    @include mobile-only{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.title{
+    @include mobile-only{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+.subtitle{
+    @include mobile-only{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 .filter{
@@ -9,9 +26,19 @@
     width: 100%;
     padding: 0.5rem;
     font-weight: 600; 
+    @include mobile-only{
+        flex-wrap: wrap;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
     &__title{
       padding: 0.4rem; 
       margin-right: 2vw;
+      @include mobile-only{
+          margin-right: 1rem;
+          width: 90%;
+
+        }
     }
     &__elt{
         display: flex;
@@ -22,6 +49,11 @@
         &:hover{
             color: $color-chart;
             cursor: pointer;
+        }
+
+        @include mobile-only{
+            margin-bottom: 0.5rem;
+            margin-right: 10px;
         }
     }
   
@@ -47,11 +79,14 @@
     display: flex;
     width: auto;
     color: rgba(0,0,0, 0.9);
-    text-align: center;
     font-size: $size-text*0.9;
     margin-left: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    @include mobile-only{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
     &__icon {
         margin-right: 5px;
         color: $color-chart;
@@ -60,6 +95,8 @@
         width: 30px;
         height: 30px;
         padding-top: 5px;
+        text-align: center;
+        flex-shrink:0
     }
 }
 

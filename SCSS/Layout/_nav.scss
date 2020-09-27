@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    position: relative;
     &__link {
         border-top: 1px solid transparent;
         padding-top: 20px;
@@ -17,6 +18,19 @@
     &__elt {
         padding: 0.5rem;
         display: inline-flex;
+        
+        @include mobile-only{
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
+        &--signin {
+            position: absolute;
+            
+            @include mobile-only{
+            width: 50%;
+            }
+            
+        }
         
     }
         

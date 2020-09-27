@@ -1,12 +1,21 @@
 .header {
-    width: 94vw;
+    width: 90%;
     margin: 2rem;
     display: flex;
     justify-content: space-between;
+    @include mobile-only{
+        width: 98vw;
+        flex-wrap: wrap;
+
+    }
 }
 
 .logo {
     padding-top: 20px;
+    width: 10%;
+    @include mobile-only {
+        width: 25%;
+    }
     &__img{
         width: 100%;
     }
