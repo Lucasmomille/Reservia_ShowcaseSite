@@ -4,11 +4,18 @@
     padding: 1rem 1rem 1rem 2rem;
     display: flex;    
     background-color: $color-bg;
+    line-height: 1.7;
+    @include mobile-only{
+        flex-direction: column;
+    }
     &__title {
         margin-bottom: 0.5rem;
     }
     &__elt {
         margin-right: 15rem;
         margin-bottom: 0.5rem;
+        @include mobile-only{
+        margin-right: 0;
+    }
     }
 }

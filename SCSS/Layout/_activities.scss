@@ -40,45 +40,45 @@
         &--1{
             background-image: url(../Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
             @include mobile-only{
-                height: $size-cover*0.5;
+                height: $size-cover*0.6;
             }
         }
         &--2{
             background-image: url(../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
             height: $size-cover*0.5;
+            @include mobile-only{
+                height: $size-cover*0.6;
+            }
         }
         &--3{
             background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
             height: $size-cover*0.3;
             @include mobile-only{
-                height: $size-cover*0.5;
+                height: $size-cover*0.6;
             }
         }
         &--4{
             background-image: url(../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
             @include mobile-only{
-                height: $size-cover*0.5;
+                height: $size-cover*0.6;
             }
         }
         &--5{
             background-image: url(../Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
             height: $size-cover*0.35;
             @include mobile-only{
-                height: $size-cover*0.5;
+                height: $size-cover*0.6;
             }
         }
         &--6{
             background-image: url(../Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
             height: $size-cover*0.4;
             @include mobile-only{
-                height: $size-cover*0.5;
+                height: $size-cover*0.6;
             }
         }
     }
-    &__img{
-        width: 100%;
-        overflow: hidden;
-    }
+
     &__text{
         font-weight: 600;
         padding: 0.8rem;
