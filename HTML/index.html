@@ -11,55 +11,24 @@
     <script src="https://kit.fontawesome.com/d94c6ce5ea.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
-<body>
-    
-    <!--
-        
-        88  88 888888    db    8888b.  888888 88""Yb       .d 
-        88  88 88__     dPYb    8I  Yb 88__   88__dP     .d88 
-        888888 88""    dP__Yb   8I  dY 88""   88"Yb        88 
-        88  88 888888 dP""""Yb 8888Y"  888888 88  Yb       88 
-        
-    -->
-    
+<body>    
     
     <header class="header">
         <div class="logo"> 
             <a href="#"><img class="logo__img" alt="Logo Reservia" src="../Images/logo/Reservia.svg"></a>
         </div>
         <nav class="navbar">
-            <ul>
-                <li class="navbar__elt"><a class="navbar__link" href="#Hebergement">Hébergements</a></li> <!-- mettre a dans li -->
-                <li class="navbar__elt"><a class="navbar__link" href="#Activities">Activités</a></li>
+            <ul class="navbar__list">
+                <li class="navbar__elt navbar__elt--hbg"><a class="navbar__link" href="#Hebergement">Hébergements</a></li> 
+                <li class="navbar__elt navbar__elt--act"><a class="navbar__link" href="#Activities">Activités</a></li>
                 <li class="navbar__elt navbar__elt--signin"><a class="navbar__link navbar__link--signin" href="#">S'inscrire</a></li>
             </ul>
             
         </nav>
     </header>
     
-    <!--
-        
-        
-        ____                                 ,--. 
-        ,'  , `.   ,---,         ,---,       ,--.'| 
-        ,-+-,.' _ |  '  .' \     ,`--.' |   ,--,:  : | 
-        ,-+-. ;   , || /  ;    '.   |   :  :,`--.'`|  ' : 
-        ,--.'|'   |  ;|:  :       \  :   |  '|   :  :  | | 
-        |   |  ,', |  '::  |   /\   \ |   :  |:   |   \ | : 
-        |   | /  | |  |||  :  ' ;.   :'   '  ;|   : '  '; | 
-        '   | :  | :  |,|  |  ;/  \   \   |  |'   ' ;.    ; 
-        ;   . |  ; |--' '  :  | \  \ ,'   :  ;|   | | \   | 
-        |   : |  | ,    |  |  '  '--' |   |  ''   : |  ; .' 
-        |   : '  |/     |  :  :       '   :  ||   | '`--'   
-        ;   | |`-'      |  | ,'       ;   |.' '   : |       
-        |   ;/          `--''         '---'   ;   |.'       
-        '---'                                 '---'         
-        
-        
-    -->
-    
     <main class="main">
-        <h1 class="title">Trouvez un hébergement pour des vacances de rêves</h1>
+        <h1 class="title">Trouvez votre hébergement pour des vacances de rêves</h1>
         <h2 class="subtitle">En plein centre ville ou en pleine nature</h2>
         
         <form class="research"> 
@@ -315,8 +284,8 @@
                     </div>
                 </article>
                 
-                <article class="activity__elt"> <!--obligé de garder pour wrapper les deux figures-->
-                    <div class="activity__figure"> <!--obligé de garder pour pouvoir mettre l'ombre-->
+                <article class="activity__elt"> 
+                    <div class="activity__figure">
                         <div class="activity__cover activity__cover--2"></div>
                         <p class="activity__text">Fort de Pomègue</p>
                     </div>
@@ -329,7 +298,7 @@
                 <article class="activity__elt">
                     <div class="activity__figure">
                         <div class="activity__cover activity__cover--4"></div>
-                        <p class="activity__text">Parc National des Calanques </p>
+                        <p class="activity__text">Parc National des Calanques</p>
                     </div>
                 </article>
                 <article class="activity__elt">
@@ -341,7 +310,6 @@
                         <div class="activity__cover activity__cover--6"></div>
                         <p class="activity__text">Parc Longchamp</p>
                     </div>
-                    
                 </article>
             </div>
         </section>
@@ -350,33 +318,27 @@
     <footer class="footer">
         <div class="footer__elt about">
             <h4 class="footer__title">A propos</h4>
-            
             <ul class="footer__list">
                 <li>Fonctionnement du site</li>
                 <li>Conditions générales de vente</li>
                 <li>Données et confidentialité</li>
             </ul>                
-            
         </div>
         
         <div class="footer__elt ourhebergement">
             <h4 class="footer__title">Nos hébergements</h4>
-            
             <ul class="footer__list">
                 <li>Charte qualité</li>
                 <li>Soumettre votre hôtel</li> 
             </ul>
-            
         </div>
         
         <div class="footer__elt assistance">
             <h4 class="footer__title">Assistance</h4>
-            
             <ul class="footer__list">
                 <li>Centre d'aide</li>
                 <li>Nous contacter</li>
             </ul>
-            
         </div>
     </footer>
     

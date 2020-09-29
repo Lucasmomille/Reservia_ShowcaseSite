@@ -63,7 +63,7 @@ button {
 
 /*component */
 .header {
-  width: 90%;
+  width: 95%;
   margin: 2rem;
   display: flex;
   justify-content: space-between;
@@ -71,17 +71,20 @@ button {
 @media screen and (max-width: 599px) {
   .header {
     width: 98vw;
-    flex-wrap: wrap;
+    display: block;
+    margin: 0;
   }
 }
 
 .logo {
-  padding-top: 20px;
+  padding-top: 7px;
   width: 10%;
 }
 @media screen and (max-width: 599px) {
   .logo {
     width: 25%;
+    margin-left: 1rem;
+    margin-top: 1rem;
   }
 }
 .logo__img {
@@ -89,16 +92,35 @@ button {
 }
 
 .navbar {
-  display: flex;
   position: relative;
+}
+@media screen and (max-width: 599px) {
+  .navbar {
+    margin-bottom: 1rem;
+  }
 }
 .navbar__link {
   border-top: 1px solid transparent;
   padding-top: 20px;
 }
+@media screen and (max-width: 599px) {
+  .navbar__link {
+    border-top: none;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 20px;
+    padding-top: 0;
+    width: 100%;
+  }
+}
 .navbar__link--signin {
   color: #0065FC;
   font-weight: 600;
+}
+@media screen and (max-width: 599px) {
+  .navbar__link--signin {
+    border: none;
+    padding: 0;
+  }
 }
 .navbar__link:hover {
   color: #0065FC;
@@ -114,19 +136,31 @@ button {
   .navbar__elt {
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    margin-top: 0.5rem;
   }
 }
-.navbar__elt--signin {
-  position: absolute;
+@media screen and (max-width: 599px) {
+  .navbar__elt--hbg {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .navbar__elt--act {
+    width: 49%;
+  }
 }
 @media screen and (max-width: 599px) {
   .navbar__elt--signin {
-    width: 50%;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -95px;
   }
 }
 
 .main {
-  width: 90%;
+  width: 95%;
   margin-right: 2rem;
   margin-left: 2rem;
 }
@@ -139,15 +173,15 @@ button {
 
 @media screen and (max-width: 599px) {
   .title {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: 599px) {
   .subtitle {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
@@ -160,13 +194,14 @@ button {
 @media screen and (max-width: 599px) {
   .filter {
     flex-wrap: wrap;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 0;
   }
 }
 .filter__title {
   padding: 0.4rem;
-  margin-right: 2vw;
+  margin-right: 2rem;
 }
 @media screen and (max-width: 599px) {
   .filter__title {
@@ -216,8 +251,8 @@ button {
 }
 @media screen and (max-width: 599px) {
   .info {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 .info__icon {
@@ -241,8 +276,8 @@ button {
 @media screen and (max-width: 599px) {
   .research {
     width: 90%;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 .research__icon {

@@ -1,5 +1,5 @@
 .main{
-    width: 90%;
+    width: 95%;
     margin-right: 2rem;
     margin-left: 2rem;
     @include mobile-only{
@@ -10,14 +10,14 @@
 
 .title{
     @include mobile-only{
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 .subtitle{
     @include mobile-only{
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
@@ -28,12 +28,13 @@
     font-weight: 600; 
     @include mobile-only{
         flex-wrap: wrap;
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        padding: 0;
     }
     &__title{
       padding: 0.4rem; 
-      margin-right: 2vw;
+      margin-right: 2rem;
       @include mobile-only{
           margin-right: 1rem;
           width: 90%;
@@ -84,8 +85,8 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     @include mobile-only{
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     &__icon {
         margin-right: 5px;
