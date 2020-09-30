@@ -16,8 +16,8 @@
     width: 10%;
     @include mobile-only {
         width: 25%;
-        margin-left: 1rem;
-        margin-top: 1rem;
+        margin-left: $margin-mobile;
+        margin-top: $margin-mobile;
     }
     &__img{
         width: 100%;

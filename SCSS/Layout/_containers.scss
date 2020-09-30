@@ -4,21 +4,13 @@
     margin-left: 2rem;
     @include mobile-only{
         width: 100%;
-        margin: 0;
+        margin-left: $margin-mobile;
+        margin-right: $margin-mobile;
     }
 }
 
 .title{
-    @include mobile-only{
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-}
-.subtitle{
-    @include mobile-only{
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+    margin-bottom: 0.2rem;
 }
 
 .filter{
@@ -28,17 +20,14 @@
     font-weight: 600; 
     @include mobile-only{
         flex-wrap: wrap;
-        margin-right: 1rem;
-        margin-left: 1rem;
         padding: 0;
     }
     &__title{
       padding: 0.4rem; 
       margin-right: 2rem;
       @include mobile-only{
-          margin-right: 1rem;
+          margin-right: $margin-mobile;
           width: 90%;
-
         }
     }
     &__elt{
@@ -84,10 +73,6 @@
     margin-left: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    @include mobile-only{
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
     &__icon {
         margin-right: 5px;
         color: $color-chart;

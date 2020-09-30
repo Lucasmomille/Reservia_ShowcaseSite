@@ -23,7 +23,6 @@
                 <li class="navbar__elt navbar__elt--act"><a class="navbar__link" href="#Activities">Activités</a></li>
                 <li class="navbar__elt navbar__elt--signin"><a class="navbar__link navbar__link--signin" href="#">S'inscrire</a></li>
             </ul>
-            
         </nav>
     </header>
     
@@ -33,10 +32,8 @@
         
         <form class="research"> 
             <i class="fas fa-map-marker-alt research__icon"></i>
-            
             <input type="text" name="search" class="research__input" placeholder="Marseille, France" required/>
-            
-            <button type="submit" value="submit" id="btn" class="btn research__elt research__btn btn--shape btn--hover">Rechercher</button> <!-- pas besoin de div direct bg/ ni p-->
+            <button type="submit" value="submit" id="btn" class="btn research__elt research__btn btn--shape btn--hover">Rechercher</button>
         </form>
         <!-- Filtres-->
         <div class="filter">
@@ -64,26 +61,12 @@
             
         </div>
         <!-- Point info-->
-        <div class="info">
+        <div class="info"> <!--réessayer i dans p-->
             <i class="fas fa-info info__icon icon"></i> 
             <p class="info__text">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
         
-        <!--
-            
-            *******   ********  ******** **     ** **       **********
-            /**////** /**/////  **////// /**    /**/**      /////**/// 
-            /**   /** /**      /**       /**    /**/**          /**    
-            /*******  /******* /*********/**    /**/**          /**    
-            /**///**  /**////  ////////**/**    /**/**          /**    
-            /**  //** /**             /**/**    /**/**          /**    
-            /**   //**/******** ******** //******* /********    /**    
-            //     // //////// ////////   ///////  ////////     //     
-            
-        -->
-        <!-- Résultats recherche-->
         <div class="result">
-            
             <section class="result__section result__section--hbg">
                 <h3 class="result__title result__title--hbg" id="Hebergement">Hébergements à Marseille</h3>
                 <div class="result__wrapper result__wrapper--hbg">
@@ -95,7 +78,7 @@
                             <ul class="result__text legend">
                                 <li class="legend__title">Auberge de la Cannebiere</li>
                                 <li class="legend__subtitle">Nuit à partir de 25€</li>
-                                <ul class="legend__rate"> <!--faire un ul-->
+                                <ul class="legend__rate"> 
                                     <li><i class="fas fa-star"></i></li>
                                     <li><i class="fas fa-star"></i></li>
                                     <li><i class="fas fa-star"></i></li>
@@ -105,7 +88,6 @@
                             </ul>
                         </a>
                     </article>
-                    
                     
                     <article class="result__elt result__elt--hbg">
                         <a href="#" class="result__link">
@@ -208,7 +190,7 @@
             <section class="popular result__section result__section--ppr">                
                 <div class="result__title result__title--ppr">
                     <h3 class="popular__title">Les plus populaires</h3>
-                    <p class="popular__icon icon"><i class="fas fa-chart-line"></i></p>
+                    <p class="popular__icon icon"><i class="fas fa-chart-line"></i></p> <!--mettre dans h3 ou sans p-->
                 </div>
                 <div class="result__wrapper result__wrapper--ppr">
                     <a href="#" class="popular__link result__link">
@@ -246,12 +228,11 @@
                                     <li><i class="fas fa-star legend__empty"></i></li>
                                 </ul>
                             </ul>
-                            
                         </article>
                     </a>
                     
                     <a href="#" class="result__link">
-                        <article class="result__elt result__elt--ppr">
+                        <article class="result__elt result__elt--ppr result__elt--last">
                             <figure class="result__figure result__figure--ppr">
                                 <img src="../Images/hebergements/3_medium/resize/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" class="result__img result__img--ppr  result__frame--i"/>
                             </figure>
@@ -271,10 +252,8 @@
                 </section>
             </div>
         </div>
-        
-        
-        
-        <section class="activity">   <!--section + article-->         
+                
+        <section class="activity">         
             <h3 class="activity__title" id="Activities">Activités à Marseille</h3>              
             <div class="activity__wrapper">
                 <article class="activity__elt"> 
@@ -301,6 +280,7 @@
                         <p class="activity__text">Parc National des Calanques</p>
                     </div>
                 </article>
+
                 <article class="activity__elt">
                     <div class="activity__figure">
                         <div class="activity__cover activity__cover--5"></div>
