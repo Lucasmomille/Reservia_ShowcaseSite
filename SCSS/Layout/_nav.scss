@@ -5,7 +5,14 @@
     }
     &__list{
         display: inline-flex;
-        align-items: flex-end;  
+        margin-top: 1rem; 
+         @include mobile-only{
+            text-align: center;
+            padding: 0;
+            margin-top: 0.5rem;
+            justify-content: space-around;
+            width: 100%
+        }
     }
     &__link {
         border-top: 1px solid transparent;
@@ -15,7 +22,8 @@
             border-bottom: 2px solid $color-bg;
             padding-bottom: 20px;
             padding-top:0;
-            width: 100%
+            width: 100%;
+            display: inline-block;
         }
         &--signin {
             color: $color-chart;
@@ -33,32 +41,27 @@
         }
     }
     &__elt {
-        padding: 0.5rem;    
-          
+        padding: 0.5rem;  
         @include mobile-only{
-            flex-direction: row-reverse;
-            flex-wrap: wrap;
-            text-align: center;
             padding: 0;
-            margin-top: 0.5rem;
-        }
+        }  
         &--hbg{
             @include mobile-only{
-                width: 49%;
+                width: 50%;
             }
         }
 
         &--act{
             @include mobile-only{
-                width: 49%;
+                width: 50%;
             }
         }
         
         &--signin {
             @include mobile-only{
                 position: absolute;
-                margin-top: -35px;
-                margin-left: -95px;
+                top: 20px;
+                right: 20px;
             }
             
         }

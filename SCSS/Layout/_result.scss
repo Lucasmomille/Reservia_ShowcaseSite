@@ -22,6 +22,10 @@
         background-color: $color-bg;
         padding: 2.5em;
         border-radius: 20px;
+        @include mobile-only {
+            padding: 2.5rem $margin-mobile 0 $margin-mobile;
+            border-radius: 0;
+        }
         &--hbg {
             width: 66%;
             height: auto;
@@ -51,13 +55,16 @@
         background-color: $color-white;
         margin-bottom: 2rem;
         box-shadow: -1px 1px 15px 0.5px rgba(0, 0, 0, 0.2);
+        @include mobile-only{
+            margin-bottom: $margin-mobile;
+        }
         
         &--hbg {
             width: 30.5%;
             overflow: hidden;  
             height: auto;
             @include mobile-only{
-            width: 100%;
+                width: 100%;
             }
         }
         &--ppr {
@@ -75,7 +82,7 @@
         }
         &--ppr {
             width: 40%;
-            height: 125px;
+            height: 115px;
         } 
     }
      &__img {
@@ -95,6 +102,9 @@
     &__more {
         width: auto;
         font-weight: 600;
+        @include mobile-only{
+            margin-top: $margin-mobile;
+            }
     }
 }
 

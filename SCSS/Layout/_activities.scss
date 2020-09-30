@@ -1,4 +1,8 @@
 .activity {
+    @include mobile-only {
+        margin-left: $margin-mobile;
+        margin-right: $margin-mobile;
+    }
     &__title {
         width: 100%;
         
@@ -15,8 +19,7 @@
     }
     &__elt{
         width: 23%;
-        overflow: hidden; 
-        // padding: 0.5rem;    
+        overflow: hidden;    
         @include mobile-only{
             width: 100%;
         }   

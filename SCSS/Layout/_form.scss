@@ -5,8 +5,7 @@
     margin-bottom: 1rem;
     @include mobile-only{
         width: 90%;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: $margin-mobile;
     }
 
     &__icon{
@@ -31,10 +30,24 @@
         padding: 0.7rem;
         color: $color-white;
         font-weight: 600;
+        &--desktop{
+            display: inline-block;
+            @include mobile-only{
+                display: none;
+            }
+        }
+        &--mobile{
+            display: none;
+            @include mobile-only{
+                display: inline-block;
+            }
+        }
+    
     }
+  
 }
 
-// Peut-on faire autrement ?
+
 ::placeholder {
     color: $color-text;
     font-size: $size-text;
