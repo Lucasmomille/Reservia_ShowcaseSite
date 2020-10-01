@@ -132,11 +132,22 @@ button {
     padding: 0;
   }
 }
+.navbar__link--hbg {
+  color: #0065FC;
+  border-color: #0065FC;
+}
 .navbar__link:hover {
   color: #0065FC;
   cursor: pointer;
   border-top: 1px solid #0065FC;
   padding-top: 20px;
+}
+@media screen and (max-width: 599px) {
+  .navbar__link:hover {
+    color: #000000;
+    border-top: none;
+    padding-top: 0;
+  }
 }
 .navbar__elt {
   padding: 0.5rem;
@@ -159,7 +170,7 @@ button {
 @media screen and (max-width: 599px) {
   .navbar__elt--signin {
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 20px;
   }
 }
@@ -341,12 +352,16 @@ button {
 }
 @media screen and (max-width: 599px) {
   .result {
-    display: flex;
     flex-direction: column-reverse;
   }
 }
 .result__title {
   margin-bottom: 2rem;
+}
+@media screen and (max-width: 599px) {
+  .result__title {
+    margin-bottom: 1rem;
+  }
 }
 .result__title--ppr {
   display: flex;
