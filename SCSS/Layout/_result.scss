@@ -129,8 +129,15 @@
         color: $color-chart;
         width: 45%;
         justify-content: space-between;
+            @include mobile-only {
+                width: 33%;
+            }
+        
         &--ppr{
             width: 60%;
+            @include mobile-only {
+                width: 40%;
+            }
         }
     }
     &__empty {
