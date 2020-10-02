@@ -69,12 +69,15 @@
                 width: 100%;
             }
         }
-        &--ppr {
-            display: flex;
-            overflow: hidden;  
-        }
+       
         &--last {
             margin-bottom: 0;
+        }
+    }
+    &__link{
+        &--ppr{
+            display: flex;
+            overflow: hidden;  
         }
     }
     &__figure {
@@ -124,7 +127,11 @@
     &__rate {
         display: inline-flex;
         color: $color-chart;
-        width: 50%;
+        width: 45%;
+        justify-content: space-between;
+        &--ppr{
+            width: 60%;
+        }
     }
     &__empty {
         color: $color-bg;

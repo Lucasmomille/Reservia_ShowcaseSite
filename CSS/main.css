@@ -423,12 +423,12 @@ button {
     width: 100%;
   }
 }
-.result__elt--ppr {
-  display: flex;
-  overflow: hidden;
-}
 .result__elt--last {
   margin-bottom: 0;
+}
+.result__link--ppr {
+  display: flex;
+  overflow: hidden;
 }
 .result__figure {
   overflow: hidden;
@@ -474,7 +474,11 @@ button {
 .legend__rate {
   display: inline-flex;
   color: #0065FC;
-  width: 50%;
+  width: 45%;
+  justify-content: space-between;
+}
+.legend__rate--ppr {
+  width: 60%;
 }
 .legend__empty {
   color: #F2F2F2;
