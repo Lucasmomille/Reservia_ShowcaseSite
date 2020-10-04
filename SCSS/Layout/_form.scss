@@ -9,6 +9,9 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+    @include tablet-only {
+        width: 40%;
+    }
 
     &__icon{
         padding: 0.7rem;

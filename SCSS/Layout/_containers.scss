@@ -90,7 +90,6 @@
 }
 
 .info{
-    display: flex;
     width: auto;
     color: rgba(0,0,0, 0.9);
     font-size: $size-text*0.9;
@@ -103,14 +102,15 @@
     }
     &__icon {
         margin-right: 5px;
+        margin-top: -0.2rem;
         color: $color-chart;
         border: 2px $color-bg solid;
         border-radius: 100vw;
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         padding-top: 5px;
         text-align: center;
-        flex-shrink:0
+        font-size: 0.7rem;
     }
 }
 

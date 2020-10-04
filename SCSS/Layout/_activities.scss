@@ -22,14 +22,13 @@
     }
     &__elt{
         width: 23%;
-        overflow: hidden;    
+        overflow: hidden;  
+        padding: 0.5rem;  
         @include mobile-only{
             width: 100%;
-            padding: 0.5rem;
         }  
         @include tablet-only {
             width: 48%;
-            padding: 0.5rem;
         } 
     }
     &__figure {

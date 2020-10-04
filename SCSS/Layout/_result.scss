@@ -110,6 +110,9 @@
        
         &--last {
             margin-bottom: 0;
+            @include mobile-only {
+                margin-bottom: 2rem;
+            }
             @include tablet-only {
                 margin-bottom: 2rem;
             }
