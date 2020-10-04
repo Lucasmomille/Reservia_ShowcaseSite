@@ -9,6 +9,9 @@
     @include mobile-only{
         flex-direction: column-reverse;
     }
+    @include tablet-only{
+        flex-direction: column-reverse;
+    }
 
     &__title {
         margin-bottom: 2rem;
@@ -29,6 +32,10 @@
             padding: 2.5rem $margin-mobile 0 $margin-mobile;
             border-radius: 0;
         }
+        @include tablet-only {
+            padding: 2.5rem $margin-mobile 0 $margin-mobile;
+        }
+        
         &--hbg {
             width: 66%;
             height: auto;
@@ -36,11 +43,19 @@
                 width: 100%;
                 background-color: $color-white;
             }
+            @include tablet-only{
+                width: 100%;
+            }
         }
         &--ppr {
             width: 31%;
             @include mobile-only{
                 width: 100%;
+            }
+            @include tablet-only{
+                width: 100%;
+                height: auto;
+                margin-bottom: 1rem;
             }
         }
     }
@@ -52,6 +67,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        }
+        &--ppr {
+            @include tablet-only {
+                display: flex;
+                justify-content: space-between;
+            }
         }
     }
 
@@ -73,20 +94,34 @@
             @include mobile-only{
                 width: 100%;
             }
+            @include tablet-only {
+                width: 32%;
+            }
         }
 
         &--ppr {
             overflow: hidden;
+            @include tablet-only {
+                width: 32%;
+                overflow: hidden;  
+                height: auto;
+            }
         }
        
         &--last {
             margin-bottom: 0;
+            @include tablet-only {
+                margin-bottom: 2rem;
+            }
         }
     }
     &__link{
         &--ppr{
             display: flex;
-            overflow: hidden;  
+            overflow: hidden; 
+            @include tablet-only {
+                display: block;
+            } 
         }
     }
     &__figure {
@@ -97,10 +132,20 @@
         &--ppr {
             width: 40%;
             height: 115px;
+            @include tablet-only{
+                width: auto;
+                height: 130px;
+            }
         } 
     }
      &__img {
-         width: 100%;     
+         width: 100%;  
+         &--ppr{
+             @include tablet-only{
+                 position: relative;
+                 top: -50px;
+                }
+            }     
         } 
 
     &__text {
@@ -111,6 +156,10 @@
             width: 55%;
             display: flex;
             flex-direction: column;
+            @include tablet-only {
+                width: auto;
+                height: 95px;
+            }
         }
     }
     &__more {
@@ -118,7 +167,8 @@
         font-weight: 600;
         @include mobile-only{
             margin-top: $margin-mobile;
-            }
+        }
+       
     }
 }
 

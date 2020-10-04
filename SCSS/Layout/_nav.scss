@@ -26,6 +26,10 @@
             display: inline-block;
             
         }
+        @include tablet-only{
+            border-top: none;
+            padding-top:0;
+        }
         &--signin {
             color: $color-chart;
             font-weight: 600;
