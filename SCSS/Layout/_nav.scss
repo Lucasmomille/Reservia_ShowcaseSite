@@ -35,8 +35,10 @@
             }
         }
         &--hbg {
-            color: $color-chart;
-            border-color: $color-chart;
+            @include mobile-only {
+                color: $color-chart;
+                border-color: $color-chart;
+            }
         }
         &:hover {
             color: $color-chart;

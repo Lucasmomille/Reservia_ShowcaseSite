@@ -5,6 +5,7 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+  outline: 2px red solid;
 }
 
 body {
@@ -41,6 +42,11 @@ h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.155rem;
+}
+@media screen and (max-width: 599px) {
+  h3 {
+    font-size: 1.365rem;
+  }
 }
 
 h4 {
@@ -131,9 +137,11 @@ button {
     padding: 0;
   }
 }
-.navbar__link--hbg {
-  color: #0065FC;
-  border-color: #0065FC;
+@media screen and (max-width: 599px) {
+  .navbar__link--hbg {
+    color: #0065FC;
+    border-color: #0065FC;
+  }
 }
 .navbar__link:hover {
   color: #0065FC;
@@ -216,6 +224,7 @@ button {
     padding: 0;
     margin-left: 1rem;
     width: 90%;
+    font-weight: 700;
   }
 }
 .filter__title {
@@ -230,7 +239,7 @@ button {
 }
 .filter__elt {
   display: flex;
-  border: 1.5px solid #F2F2F2;
+  border: 1px solid #F2F2F2;
   border-radius: 50vw;
   margin-right: 20px;
 }
@@ -242,6 +251,7 @@ button {
   .filter__elt {
     margin-bottom: 0.5rem;
     margin-right: 10px;
+    border: 2px solid #F2F2F2;
   }
 }
 .filter__icon {
@@ -271,6 +281,7 @@ button {
 @media screen and (max-width: 599px) {
   .info {
     margin-left: 1rem;
+    font-size: 1rem;
   }
 }
 .info__icon {
@@ -295,6 +306,8 @@ button {
   .research {
     width: 90%;
     margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 .research__icon {
@@ -304,6 +317,13 @@ button {
   background-color: #F2F2F2;
   text-align: center;
   width: 40px;
+}
+@media screen and (max-width: 599px) {
+  .research__icon {
+    padding: 1rem;
+    width: 50px;
+    font-size: 1.1rem;
+  }
 }
 .research__input {
   padding-left: 0.5rem;
@@ -332,6 +352,11 @@ button {
 @media screen and (max-width: 599px) {
   .research__btn--mobile {
     display: inline-block;
+    border-radius: 10px;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    margin-left: -5px;
+    width: 50px;
   }
 }
 
@@ -365,6 +390,7 @@ button {
 .result__title--ppr {
   display: flex;
   justify-content: space-between;
+  font-size: 1.365rem;
 }
 .result__section {
   background-color: #F2F2F2;
@@ -395,6 +421,11 @@ button {
     width: 100%;
   }
 }
+@media screen and (max-width: 599px) {
+  .result__wrapper {
+    padding: 0.5rem;
+  }
+}
 .result__wrapper--hbg {
   display: flex;
   flex-wrap: wrap;
@@ -410,6 +441,7 @@ button {
 @media screen and (max-width: 599px) {
   .result__elt {
     margin-bottom: 1rem;
+    border-radius: 20px;
   }
 }
 .result__elt--hbg {
@@ -421,6 +453,9 @@ button {
   .result__elt--hbg {
     width: 100%;
   }
+}
+.result__elt--ppr {
+  overflow: hidden;
 }
 .result__elt--last {
   margin-bottom: 0;
@@ -465,6 +500,11 @@ button {
   font-weight: 700;
   font-size: 0.9rem;
   margin-bottom: 0.3rem;
+}
+@media screen and (max-width: 599px) {
+  .legend__title {
+    font-size: 1rem;
+  }
 }
 .legend__subtitle {
   flex-grow: 1;
@@ -521,6 +561,7 @@ button {
 @media screen and (max-width: 599px) {
   .activity__elt {
     width: 100%;
+    padding: 0.5rem;
   }
 }
 .activity__figure {
@@ -543,12 +584,17 @@ button {
 }
 @media screen and (max-width: 599px) {
   .activity__cover--1 {
-    height: 240px;
+    height: 200px;
   }
 }
 .activity__cover--2 {
   background-image: url(../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
   height: 220px;
+}
+@media screen and (max-width: 599px) {
+  .activity__cover--2 {
+    height: 200px;
+  }
 }
 .activity__cover--3 {
   background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
@@ -556,7 +602,7 @@ button {
 }
 @media screen and (max-width: 599px) {
   .activity__cover--3 {
-    height: 240px;
+    height: 200px;
   }
 }
 .activity__cover--4 {
@@ -564,7 +610,7 @@ button {
 }
 @media screen and (max-width: 599px) {
   .activity__cover--4 {
-    height: 240px;
+    height: 200px;
   }
 }
 .activity__cover--5 {
@@ -573,7 +619,7 @@ button {
 }
 @media screen and (max-width: 599px) {
   .activity__cover--5 {
-    height: 240px;
+    height: 200px;
   }
 }
 .activity__cover--6 {
@@ -582,7 +628,7 @@ button {
 }
 @media screen and (max-width: 599px) {
   .activity__cover--6 {
-    height: 240px;
+    height: 200px;
   }
 }
 .activity__text {

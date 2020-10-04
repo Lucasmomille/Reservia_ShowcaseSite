@@ -34,6 +34,7 @@
         padding: 0;
         margin-left: $margin-mobile;
         width: 90%;
+        font-weight: 700; 
     }
     &__title{
       padding: 0.4rem; 
@@ -45,7 +46,7 @@
     }
     &__elt{
         display: flex;
-        border: 1.5px solid $color-bg;
+        border: 1px solid $color-bg;
         border-radius: 50vw;
         margin-right: 20px;
     
@@ -57,6 +58,7 @@
         @include mobile-only{
             margin-bottom: 0.5rem;
             margin-right: 10px;
+            border: 2px solid $color-bg;
         }
     }
   
@@ -88,6 +90,7 @@
     margin-bottom: 1rem;
     @include mobile-only {
         margin-left: $margin-mobile;
+        font-size: $size-text;
     }
     &__icon {
         margin-right: 5px;
