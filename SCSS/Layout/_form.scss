@@ -6,6 +6,11 @@
     @include mobile-only{
         width: 90%;
         margin-left: $margin-mobile;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    @include tablet-only {
+        width: 40%;
     }
 
     &__icon{
@@ -15,6 +20,11 @@
         background-color: $color-bg;
         text-align: center;
         width: 40px;
+        @include mobile_only {
+            padding: 1rem;
+            width: 50px;
+            font-size: 1.1rem;
+        }
 
     }
     &__input{
@@ -40,6 +50,11 @@
             display: none;
             @include mobile-only{
                 display: inline-block;
+                border-radius: 10px;
+                padding: 0.9rem;
+                font-size: 1.1rem;
+                margin-left: -5px;
+                width: 50px;
             }
         }
     

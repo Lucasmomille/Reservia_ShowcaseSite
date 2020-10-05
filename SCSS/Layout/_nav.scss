@@ -26,6 +26,10 @@
             display: inline-block;
             
         }
+        @include tablet-only{
+            border-top: none;
+            padding-top:0;
+        }
         &--signin {
             color: $color-chart;
             font-weight: 600;
@@ -35,8 +39,10 @@
             }
         }
         &--hbg {
-            color: $color-chart;
-            border-color: $color-chart;
+            @include mobile-only {
+                color: $color-chart;
+                border-color: $color-chart;
+            }
         }
         &:hover {
             color: $color-chart;

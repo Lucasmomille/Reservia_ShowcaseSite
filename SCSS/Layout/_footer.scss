@@ -5,8 +5,11 @@
     display: flex;    
     background-color: $color-bg;
     line-height: 1.7;
-    @include mobile-only{
+    @include mobile-only {
         flex-direction: column;
+    }
+    @include tablet-only {
+        text-align: center;
     }
     &__title {
         margin-bottom: 0.5rem;
@@ -14,8 +17,12 @@
     &__elt {
         margin-right: 15rem;
         margin-bottom: 0.5rem;
-        @include mobile-only{
-        margin-right: 0;
-    }
+        @include mobile-only {
+            margin-right: 0;
+        }
+        @include tablet-only {
+            margin-right: 1rem;
+            flex: 1 0 0;
+        }
     }
 }
