@@ -1,18 +1,19 @@
-.main{
+
+.main {
     width: 95%;
     margin-right: 2rem;
     margin-left: 2rem;
-    @include mobile-only{
+    @include mobile-only {
         width: 100%;
         margin-left: 0;
         margin-right: $margin-mobile;
     }
-    @include tablet-only{
+    @include tablet-only {
         width: 90%;
     }
 }
 
-.title{
+.title {
     margin-bottom: 0.2rem;
     @include mobile-only {
         width: 90%;
@@ -29,51 +30,62 @@
     }
 }
 
-.filter{
+/*
+ 
+  ******** **  **   **                 
+ /**///// //  /**  /**                 
+ /**       ** /** ******  *****  ******
+ /******* /** /**///**/  **///**//**//*
+ /**////  /** /**  /**  /******* /** / 
+ /**      /** /**  /**  /**////  /**   
+ /**      /** ***  //** //******/   
+ //       // ///    //   ////// ///    
+ 
+.filter {
     display: flex;
     width: 100%;
     padding: 0.5rem;
     font-weight: 600; 
-    @include mobile-only{
+    @include mobile-only {
         flex-wrap: wrap;
         padding: 0;
         margin-left: $margin-mobile;
         width: 90%;
         font-weight: 700; 
     }
-    @include tablet-only{
+    @include tablet-only {
         flex-wrap: wrap;
     }
-    &__title{
+    &__title {
       padding: 0.4rem; 
       margin-right: 2rem;
-      @include mobile-only{
+      @include mobile-only {
           margin-right: $margin-mobile;
           width: 90%;
         }
     }
-    &__elt{
+    &__elt {
         display: flex;
         border: 1px solid $color-bg;
         border-radius: 50vw;
         margin-right: 20px;
     
-        &:hover{
+        &:hover {
             color: $color-chart;
             cursor: pointer;
         }
 
-        @include mobile-only{
+        @include mobile-only {
             margin-bottom: 0.5rem;
             margin-right: 10px;
             border: 2px solid $color-bg;
         }
-        @include tablet-only{
+        @include tablet-only {
             margin-bottom: 0.5rem;
         }
     }
   
-    &__icon{
+    &__icon {
         background-color: $color-chartlight;
         border-radius: 100%;
         color: $color-chart;
@@ -83,14 +95,23 @@
         height: 40px;
         padding-top: 12px;
     }
-    &__name{
+    &__name {
         margin-right: 20px;
         margin-top: 9px;
-    }
-
-    
+    }  
 }
-
+/*
+ 
+  **            ****         
+ //            /**/          
+  //** *******  ******  ****** 
+ /**//**///**///**/  **////**
+ /** /**  /**  /**  /**   /**
+ /** /**  /**  /**  /**   /**
+ /** ***  /**  /**  //****** 
+ // ///   //   //    //////  
+ 
+*/
 .info{
     width: auto;
     color: rgba(0,0,0, 0.9);
@@ -115,7 +136,3 @@
         font-size: 0.7rem;
     }
 }
-
-
-
-

@@ -1,7 +1,6 @@
 .navbar {
     @include mobile-only{
         margin-bottom: $margin-mobile;
-        
     }
     &__list{
         display: inline-flex;
@@ -24,7 +23,6 @@
             padding-top:0;
             width: 100%;
             display: inline-block;
-            
         }
         @include tablet-only{
             border-top: none;
@@ -53,45 +51,31 @@
                 color: $color-text;
                 border-top: none;
                 padding-top: 0;
-            
             }
         }
-        // &:focus{
-        //     @include mobile-only{
-        //     color: $color-chart;
-        //     border-bottom: 2px solid $color-chart;
-        //     padding-bottom: 20px;
-            
-        //     }
-        // }
     }
     &__elt {
         padding: 0.5rem;  
-        @include mobile-only{
+        @include mobile-only {
             padding: 0;
         }  
-        &--hbg{
-            @include mobile-only{
+        &--hbg {
+            @include mobile-only {
                 width: 50%;
                 
             }
         }
-
-        &--act{
-            @include mobile-only{
+        &--act {
+            @include mobile-only {
                 width: 50%;
             }
         }
-        
         &--signin {
             @include mobile-only{
                 position: absolute;
                 top: 25px;
                 right: 20px;
             }
-            
         }
-        
-    }
-        
+    }  
 }

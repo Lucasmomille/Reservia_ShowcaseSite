@@ -5,14 +5,13 @@
     }
     &__title {
         width: 100%;
-        
         }
     &__wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 1rem;
-        @include mobile-only{
+        @include mobile-only {
             display: flex;
             flex-direction: column;
         }
@@ -20,11 +19,11 @@
             flex-wrap: wrap;
         }
     }
-    &__elt{
+    &__elt {
         width: 23%;
         overflow: hidden;  
         padding: 0.5rem;  
-        @include mobile-only{
+        @include mobile-only {
             width: 100%;
         }  
         @include tablet-only {
@@ -40,46 +39,45 @@
         box-shadow: 1.5px 2px 10px 0.1px rgba(0, 0, 0, 0.1);
         margin-bottom: 2rem;
         }
-
     &__cover {
         width: 100%;
         height: $size-cover;
         background-position: center;
         background-size: cover;
-        &--1{
+        &--1 {
             background-image: url(../Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-            @include mobile-only{
+            @include mobile-only {
                 height: $size-cover*0.5;
             }
         }
-        &--2{
+        &--2 {
             background-image: url(../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
             height: $size-cover*0.55;
             @include mobile-only{
                 height: $size-cover*0.5;
             }
         }
-        &--3{
+        &--3 {
             background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
             height: $size-cover*0.38;
-            @include mobile-only{
+            @include mobile-only {
                 height: $size-cover*0.5;
             }
         }
-        &--4{
+        &--4 {
             background-image: url(../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
             @include mobile-only{
                 height: $size-cover*0.5;
             }
         }
-        &--5{
+        &--5 {
             background-image: url(../Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
             height: $size-cover*0.45;
             @include mobile-only{
                 height: $size-cover*0.5;
             }
         }
-        &--6{
+        &--6 {
             background-image: url(../Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
             height: $size-cover*0.47;
             @include mobile-only{
@@ -87,8 +85,7 @@
             }
         }
     }
-
-    &__text{
+    &__text {
         font-weight: 600;
         padding: 0.8rem;
         border-bottom-left-radius: 10px;
