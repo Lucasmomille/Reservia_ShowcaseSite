@@ -17,6 +17,7 @@
     @include mobile-only {
         width: 90%;
         margin-left: $margin-mobile;
+        line-height: 1.1;
     }
 }
 
@@ -24,6 +25,7 @@
     @include mobile-only {
         width: 90%;
         margin-left: $margin-mobile;
+        line-height: 2;
     }
 }
 

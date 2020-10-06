@@ -224,6 +224,7 @@ button {
   .title {
     width: 90%;
     margin-left: 1rem;
+    line-height: 1.1;
   }
 }
 
@@ -231,6 +232,7 @@ button {
   .subtitle {
     width: 90%;
     margin-left: 1rem;
+    line-height: 2;
   }
 }
 
@@ -365,7 +367,7 @@ button {
 .research__input {
   padding-left: 0.5rem;
   border: 0.5px solid #F2F2F2;
-  width: 70%;
+  width: 75%;
 }
 .research__btn {
   background-color: #0065FC;
