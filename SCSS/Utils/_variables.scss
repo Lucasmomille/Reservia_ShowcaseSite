@@ -6,13 +6,12 @@ $color-white: #FFFFFF;
 
 $size-text: 1rem;
 $size-h1: $size-text*1.5;
-$size-h2: $size-h1*0.7;
+$size-h2: $size-text*1.1;
 
 $size-img: 110px;
 $size-cover: 400px;
 
 $margin-mobile: 1rem;
-
 
 $breakpoints: (
     mobile: 599px,
