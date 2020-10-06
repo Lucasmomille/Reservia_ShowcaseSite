@@ -883,7 +883,7 @@ button {
   background-size: cover;
 }
 .activity__cover--1 {
-  background-image: url(../Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 @media screen and (max-width: 599px) {
   .activity__cover--1 {
@@ -891,7 +891,7 @@ button {
   }
 }
 .activity__cover--2 {
-  background-image: url(../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
   height: 220px;
 }
 @media screen and (max-width: 599px) {
@@ -900,7 +900,7 @@ button {
   }
 }
 .activity__cover--3 {
-  background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
   height: 152px;
 }
 @media screen and (max-width: 599px) {
@@ -909,7 +909,7 @@ button {
   }
 }
 .activity__cover--4 {
-  background-image: url(../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 @media screen and (max-width: 599px) {
   .activity__cover--4 {
@@ -917,7 +917,7 @@ button {
   }
 }
 .activity__cover--5 {
-  background-image: url(../Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
   height: 180px;
 }
 @media screen and (max-width: 599px) {
@@ -926,7 +926,7 @@ button {
   }
 }
 .activity__cover--6 {
-  background-image: url(../Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
   height: 188px;
 }
 @media screen and (max-width: 599px) {
