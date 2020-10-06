@@ -45,40 +45,40 @@
         background-position: center;
         background-size: cover;
         &--1 {
-            background-image: url(../Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+            background-image: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
             @include mobile-only {
                 height: $size-cover*0.5;
             }
         }
         &--2 {
-            background-image: url(../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+            background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
             height: $size-cover*0.55;
             @include mobile-only{
                 height: $size-cover*0.5;
             }
         }
         &--3 {
-            background-image: url(../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+            background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
             height: $size-cover*0.38;
             @include mobile-only {
                 height: $size-cover*0.5;
             }
         }
         &--4 {
-            background-image: url(../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+            background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
             @include mobile-only{
                 height: $size-cover*0.5;
             }
         }
         &--5 {
-            background-image: url(../Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+            background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
             height: $size-cover*0.45;
             @include mobile-only{
                 height: $size-cover*0.5;
             }
         }
         &--6 {
-            background-image: url(../Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+            background-image: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
             height: $size-cover*0.47;
             @include mobile-only{
                 height: $size-cover*0.5;

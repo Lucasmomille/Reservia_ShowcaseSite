@@ -1,21 +1,21 @@
-@import "./Utils/variables";
-@import "./Utils/mixins";
+@import "./utils/variables";
+@import "./utils/mixins";
 /*function -mixin*/
 
 
 
-@import "./Base/base";
-@import "./Base/typography";
-@import "./Components/buttons";
+@import "./base/base";
+@import "./base/typography";
+@import "./components/buttons";
 /*component */
 
-@import "./Layout/header";
-@import "./Layout/nav";
-@import "./Layout/containers";
-@import "./Layout/form";
-@import "./Layout/result";
-@import "./Layout/activities";
-@import "./Layout/footer";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/containers";
+@import "./layout/form";
+@import "./layout/result";
+@import "./layout/activities";
+@import "./layout/footer";
 /*form*/
 
 
