@@ -45,7 +45,7 @@
         background-position: center;
         background-size: cover;
         &--1 {
-            background-image: url(./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+            background-image: url(./../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
             @include mobile-only {
                 height: $size-cover*0.5;
             }
