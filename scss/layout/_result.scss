@@ -162,6 +162,7 @@
         overflow: hidden;  
         &--hbg {
             height: $size-img;
+
         }
         &--ppr {
             width: 40%;
@@ -197,8 +198,11 @@
     &__more {
         width: auto;
         font-weight: 600;
-        @include mobile-only{
+        @include mobile-only {
             margin-top: $margin-mobile;
+        }
+        @include tablet-only {
+            margin-bottom: 1rem;
         }
     }
 }
