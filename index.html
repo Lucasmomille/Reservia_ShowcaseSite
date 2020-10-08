@@ -14,7 +14,7 @@
 <body>    
     
     <header class="header">
-        <h1 class=h1>Reservia</h1> <!--voir pour faire un h1 caché-->
+        <h1 class="h1">Reservia</h1> <!--voir pour faire un h1 caché/mettre dans div en span/div qui devient h1-->
         <div class="logo"> 
             <a href="#"><img class="logo__img" alt="Logo Reservia" src="./images/logo/Reservia.svg"></a>
         </div>
@@ -83,7 +83,7 @@
                                     <li><i class="fas fa-star"></i></li>
                                     <li><i class="fas fa-star"></i></li>
                                     <li><i class="fas fa-star legend__empty"></i></li>
-                                </ul> </li>
+                                </ul></li>
                             </ul>
                         </a>
                     </article>
@@ -251,75 +251,89 @@
                 </div>    
             </section>
         </div>
-            
-            <section class="activity">         
-                <h3 class="activity__title" id="Activities">Activités à Marseille</h3>              
-                <div class="activity__wrapper">
-                    <article class="activity__elt"> 
+        
+        <section class="activity">         
+            <h3 class="activity__title" id="Activities">Activités à Marseille</h3>              
+            <div class="activity__wrapper">
+                
+                <article class="activity__elt"> 
+                    <a href="#" class="activity__link">
                         <div class="activity__figure">
                             <div class="activity__cover activity__cover--1"></div>               
                             <p class="activity__text">Vieux Port</p> <!--voir pour h5-->
                         </div>
-                    </article>
-                    
-                    <article class="activity__elt"> 
+                    </a>
+                </article>
+                
+                
+                <article class="activity__elt"> 
+                    <a href="#" class="activity__link">
                         <div class="activity__figure">
                             <div class="activity__cover activity__cover--2"></div>
                             <p class="activity__text">Fort de Pomègue</p>
                         </div>
+                    </a>
+                    <a href="#" class="activity__link">
                         <div class="activity__figure">
                             <div class="activity__cover activity__cover--3"></div>
                             <p class="activity__text">Îles de Frioul</p>
                         </div>
-                    </article>
-                    
-                    <article class="activity__elt">
+                    </a>
+                </article>
+                
+                <article class="activity__elt">
+                    <a href="#" class="activity__link">
                         <div class="activity__figure">
                             <div class="activity__cover activity__cover--4"></div>
                             <p class="activity__text">Parc National des Calanques</p>
                         </div>
-                    </article>
-                    
-                    <article class="activity__elt">
+                    </a>
+                </article>
+                
+                <article class="activity__elt">
+                    <a href="#" class="activity__link">
                         <div class="activity__figure">
                             <div class="activity__cover activity__cover--5"></div>
                             <p class="activity__text">Notre-Dame-de-la-Garde</p>
                         </div>
+                    </a>
+                    <a href="#" class="activity__link">
                         <div class="activity__figure">
                             <div class="activity__cover activity__cover--6"></div>
                             <p class="activity__text">Parc Longchamp</p>
                         </div>
-                    </article>
-                </div>
-            </section>
-        </main>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__elt">
+            <h4 class="footer__title">A propos</h4>
+            <ul class="footer__list">
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente</li>
+                <li>Données et confidentialité</li>
+            </ul>                
+        </div>
         
-        <footer class="footer">
-            <div class="footer__elt">
-                <h4 class="footer__title">A propos</h4>
-                <ul class="footer__list">
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialité</li>
-                </ul>                
-            </div>
-            
-            <div class="footer__elt">
-                <h4 class="footer__title">Nos hébergements</h4>
-                <ul class="footer__list">
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li> 
-                </ul>
-            </div>
-            
-            <div class="footer__elt">
-                <h4 class="footer__title">Assistance</h4>
-                <ul class="footer__list">
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
-            </div>
-        </footer>
+        <div class="footer__elt">
+            <h4 class="footer__title">Nos hébergements</h4>
+            <ul class="footer__list">
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li> 
+            </ul>
+        </div>
         
-    </body>
-    </html>
+        <div class="footer__elt">
+            <h4 class="footer__title">Assistance</h4>
+            <ul class="footer__list">
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
