@@ -18,7 +18,7 @@
         &--ppr {
         display: flex;
         justify-content: space-between;
-        font-size: $size-h2*1.3; //utile pour l'icone
+        font-size: $size-h3*1.3; //utile pour l'icone
         }
     }
 /*
@@ -42,7 +42,7 @@
             border-radius: 0;
         }
         @include tablet-only {
-            padding: 2.5rem $margin-mobile 0 $margin-mobile;
+            padding: 1.5rem $margin-mobile 0 $margin-mobile;
         }
         
         &--hbg {
@@ -162,7 +162,10 @@
         overflow: hidden;  
         &--hbg {
             height: $size-img;
-
+             @include tablet-only{
+                width: auto;
+                height: 100px;
+            }
         }
         &--ppr {
             width: 40%;
@@ -244,6 +247,9 @@
             width: 60%;
             @include mobile-only {
                 width: 40%;
+            }
+            @include tablet-only {
+                width: 45%;
             }
         }
     }

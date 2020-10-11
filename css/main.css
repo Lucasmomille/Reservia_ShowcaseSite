@@ -25,30 +25,30 @@ body {
   line-height: 1.4;
 }
 
-h1 {
+h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
-h2 {
+h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
 }
 
-h3 {
+h4 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.21rem;
 }
 @media screen and (max-width: 599px) {
-  h3 {
+  h4 {
     font-size: 1.43rem;
   }
 }
 
-h4 {
+h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1rem;
@@ -512,7 +512,7 @@ button {
 }
 @media (min-width: 599px) and (max-width: 1024px) {
   .result__section {
-    padding: 2.5rem 1rem 0 1rem;
+    padding: 1.5rem 1rem 0 1rem;
   }
 }
 .result__section--hbg {
@@ -627,6 +627,12 @@ button {
 .result__figure--hbg {
   height: 110px;
 }
+@media (min-width: 599px) and (max-width: 1024px) {
+  .result__figure--hbg {
+    width: auto;
+    height: 100px;
+  }
+}
 .result__figure--ppr {
   width: 40%;
   height: 115px;
@@ -723,6 +729,11 @@ button {
 @media screen and (max-width: 599px) {
   .legend__rate--ppr {
     width: 40%;
+  }
+}
+@media (min-width: 599px) and (max-width: 1024px) {
+  .legend__rate--ppr {
+    width: 45%;
   }
 }
 .legend__empty {
