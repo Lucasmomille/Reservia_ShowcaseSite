@@ -183,9 +183,11 @@
         object-fit: cover;
          width: 100%;  
          &--hbg {
+            min-height: 119px;
             max-height: 120px;
          }
          &--ppr{
+             min-height: 129px;
              max-height: 130px;
             }     
         } 

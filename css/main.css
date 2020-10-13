@@ -653,9 +653,11 @@ button {
   width: 100%;
 }
 .result__img--hbg {
+  min-height: 119px;
   max-height: 120px;
 }
 .result__img--ppr {
+  min-height: 129px;
   max-height: 130px;
 }
 .result__text {
