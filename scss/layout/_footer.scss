@@ -7,6 +7,7 @@
     line-height: 1.7;
     @include mobile-only {
         flex-direction: column;
+        padding: 1rem;
     }
     @include tablet-only {
         text-align: center;
