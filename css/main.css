@@ -627,6 +627,11 @@ button {
 .result__figure--hbg {
   height: 110px;
 }
+@media screen and (max-width: 599px) {
+  .result__figure--hbg {
+    height: 115px;
+  }
+}
 @media (min-width: 599px) and (max-width: 1024px) {
   .result__figure--hbg {
     width: auto;
@@ -635,7 +640,7 @@ button {
 }
 .result__figure--ppr {
   width: 40%;
-  height: 115px;
+  height: 122px;
 }
 @media (min-width: 599px) and (max-width: 1024px) {
   .result__figure--ppr {
@@ -644,13 +649,14 @@ button {
   }
 }
 .result__img {
+  object-fit: cover;
   width: 100%;
 }
-@media (min-width: 599px) and (max-width: 1024px) {
-  .result__img--ppr {
-    position: relative;
-    top: -50px;
-  }
+.result__img--hbg {
+  max-height: 120px;
+}
+.result__img--ppr {
+  max-height: 130px;
 }
 .result__text {
   padding-top: 0.5rem;

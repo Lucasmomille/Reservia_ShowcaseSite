@@ -162,14 +162,17 @@
         overflow: hidden;  
         &--hbg {
             height: $size-img;
-             @include tablet-only{
+            @include mobile-only {
+                height: 115px;
+            }
+            @include tablet-only{
                 width: auto;
                 height: 100px;
             }
         }
         &--ppr {
             width: 40%;
-            height: 115px;
+            height: 122px;
             @include tablet-only{
                 width: auto;
                 height: 130px;
@@ -177,12 +180,13 @@
         } 
     }
     &__img {
+        object-fit: cover;
          width: 100%;  
+         &--hbg {
+            max-height: 120px;
+         }
          &--ppr{
-             @include tablet-only{
-                 position: relative;
-                 top: -50px;
-                }
+             max-height: 130px;
             }     
         } 
     &__text {
