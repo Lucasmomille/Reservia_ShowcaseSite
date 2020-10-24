@@ -5,5 +5,7 @@ Projet 2 "Reservia" réalisé dans le cadre de la formation Prep'Apprentissage d
 Site vitrine responsive.
 ----------------
 HTML5/SCSS
+
 Visual Studio Code
+
 NodeJS pour compiler le SCSS en CSS avec autoprefixer.
