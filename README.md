@@ -1,5 +1,5 @@
 # P2_MoquetLucas_OC
-https://lucasmomille.github.io/LucasMoquet_2_20082020/
+https://lucasmomille.github.io/Reservia_ShowcaseSite/ 
 
 Projet 2 "Reservia" réalisé dans le cadre de la formation Prep'Apprentissage de OpenClassrooms.
 Site vitrine responsive.
