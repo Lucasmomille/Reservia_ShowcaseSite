@@ -6,6 +6,3 @@ Site vitrine responsive.
 ----------------
 HTML5/SCSS
 
-Visual Studio Code
-
-NodeJS pour compiler le SCSS en CSS avec autoprefixer.
